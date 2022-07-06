@@ -8,7 +8,7 @@ public class Main {
         int schet = summaPopolnenia + accountАmount;
         int bonus = schet / 100;
         if (schet < 1000) {
-            System.out.println("Для начисления бонусных рублей на счете должо быть не менее 1000 рублей");
+            System.out.println("Для начисления бонусных рублей на счете должно быть не менее 1000 рублей");
         } else {
             System.out.println(bonus+schet +" рублей");
         }
